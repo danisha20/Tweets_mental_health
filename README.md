@@ -6,26 +6,7 @@ Detecting Depression From Tweets
 The Model was trainned with 1,600,000 tweets obtained from https://www.kaggle.com/kazanova/sentiment140. 
 
 # Labelling: 
-The Tweets were flagged as having a relation with depression if they contained the word “depression”, its derivatives or  similar as per Ferran et al. [1]
-overwhelmed
-exhausted
-distressed
-anxiety
-anxious
-tired
-low
-depression
-depressed
-discouraged
-desperate
-demotivated
-insomnia
-cry
-nervous
-worried
-lonely
-sad
-empty
+The Tweets were flagged as having a relation with depression if they contained the word “depression”, its derivatives or  similar as per Ferran et al. [1]. The list includes the words: overwhelmed, exhausted, distressed, anxiety, anxious, tired, low, sad, cry, nervous, empty, worried, insomnia, demotivated, lonely, desperate.
 
 # Preprocessing
 Natural language preprocessing techniques such as noise reduction (removing special characters, URLs, extra spaces, etc...), normalization ( lower-case transformation, punctuation removal, contractions expansion), stop words elimination, lemmatization, and tokenization were performed to clean the tweets. 
