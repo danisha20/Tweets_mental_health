@@ -1,4 +1,5 @@
-# Tweets_mental_health
+# Classifying Tweets for Mental Health 
+
 Detecting Depression From Tweets
 
 # Data Collection: 
@@ -36,7 +37,8 @@ Several supervised machine learning algorithms were tested to determine which on
 
 The best combination obtained from this experimentation was: **BoW + Tri-grams + Random Forest** obtaining an accuracy of 97% and Area Under the Curve of 98%. 
 
-
+# Deployment 
+TogetherAlways App 
 
 
 [1] Leis, A., Ronzano, F., Mayer, M. A., Furlong, L. I., & Sanz, F. (2019). Detecting signs of depression in tweets in Spanish: behavioral and linguistic analysis. Journal of medical Internet research, 21(6), e14199.
