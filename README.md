@@ -12,7 +12,7 @@ The Tweets were flagged as having a relation with depression if they contained t
 Natural language preprocessing techniques such as noise reduction (removing special characters, URLs, extra spaces, etc...), normalization ( lower-case transformation, punctuation removal, contractions expansion), stop words elimination, lemmatization, and tokenization were performed to clean the tweets. 
 
 # Model Selection
-Several supervised machine learning algorithms were tested to determine which one was the better at discerning messages with a link to depression than those that had no link. For this,  three algorithms were evaluated: Naive Bayes, Random Forest, and KNN and tested them with two different vectorization techniques: Bag of Words(BoW) and TF-IDF and with two n-grams strategies: bi-grams and tri-grams.
+Several supervised machine learning algorithms were tested to determine which one was the better at discerning messages with a link to depression . For this,  four algorithms were evaluated: Naive Bayes, Random Forest, Logistic Regression, and KNN and tested with two different vectorization techniques: Bag of Words(BoW) and TF-IDF, and two n-grams strategies: bi-grams and tri-grams.
 
 # Results
 
